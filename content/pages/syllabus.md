@@ -35,10 +35,39 @@ Grading
 
 There will be three quizzes in the class. In addition there will be regular homework and project assignments. (Projects will involve the manipulation of real experimental data.) Grades will be allocated on a score consisting of:
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Quizzes and projects | 80% |
-| Homework | 20% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Quizzes and projects
+{{< tdclose >}}
+{{< tdopen >}}
+80%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework
+{{< tdclose >}}
+{{< tdopen >}}
+20%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Course Ethics: Guidelines for Independent Effort
 ------------------------------------------------

@@ -14,30 +14,599 @@ Cartinhour, Jack. _Digital Signal Processing: An Overview of Basic Principles_. 
 
 Stearns, Samuel D., and Don R. Hush. _Digital Signal Analysis_. 2nd ed. Englewood Cliffs, NJ: Prentice Hall, 1990. ISBN: 9780132131179.
 
-| SES # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 |  {{< br >}}{{< br >}} Introduction to signal processing {{< br >}}{{< br >}} Properties of LTI continuous filters {{< br >}}{{< br >}} The Dirac delta function {{< br >}}{{< br >}} Properties of the delta function {{< br >}}{{< br >}} Practical applications of the Dirac delta function {{< br >}}{{< br >}}  | Class handout: The Dirac delta and unit-step functions |
-| 2 |  {{< br >}}{{< br >}} Continuous LTI system time-domain response {{< br >}}{{< br >}} Sinusoidal response of LTI continuous systems {{< br >}}{{< br >}}  | Class handouts: Convolution, sinusoidal frequency response |
-| 3 |  {{< br >}}{{< br >}} The Fourier series and transform {{< br >}}{{< br >}} Periodic input functions — the Fourier series {{< br >}}{{< br >}} Aperiodic input functions — the Fourier transform {{< br >}}{{< br >}}  | Class handout: Frequency domain methods |
-| 4 |  {{< br >}}{{< br >}} Review of development of Fourier transform {{< br >}}{{< br >}} The frequency response of a linear system defined directly from the Fourier transform {{< br >}}{{< br >}} Relationship between the frequency response and the impulse response {{< br >}}{{< br >}} The convolution property {{< br >}}{{< br >}}  | &nbsp; |
-| 5 |  {{< br >}}{{< br >}} The one-sided Laplace transform {{< br >}}{{< br >}} The transfer function {{< br >}}{{< br >}} Poles and zeros of the transfer function {{< br >}}{{< br >}} Frequency response and the pole-zero plot {{< br >}}{{< br >}}  | Class handouts: The Laplace transform, understanding poles and zeros, sinusoidal frequency response of linear systems |
-| 6 |  {{< br >}}{{< br >}} Poles and zeros of filter classes {{< br >}}{{< br >}} The decibel {{< br >}}{{< br >}} Low-pass filter design {{< br >}}{{< br >}}  | Class handouts: Sinusoidal frequency response of linear systems, sections 6.1 and 7, introduction to continuous time filter design |
-| 7 |  {{< br >}}{{< br >}} Butterworth filter design example {{< br >}}{{< br >}} Chebyshev filters {{< br >}}{{< br >}}  | Class handout: Introduction to continuous time filter design |
-| 8 |  {{< br >}}{{< br >}} Second-order filter sections {{< br >}}{{< br >}} Transformation of low-pass filters to other classes {{< br >}}{{< br >}} State-variable active filters {{< br >}}{{< br >}}  | Class handouts: Introduction to continuous time filter design, introduction to operational amplifiers, op-amp implementation of analog filters |
-| 9 |  {{< br >}}{{< br >}} Operational-amplifier based state-variable filters {{< br >}}{{< br >}} Introduction to discrete-time signal processing {{< br >}}{{< br >}}  | Class handout: Introduction to the operational amplifier, op-amp implementation of analog filters |
-| 10 |  {{< br >}}{{< br >}} The sampling theorem {{< br >}}{{< br >}} The discrete Fourier transform (DFT) {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Class handout: Sampling and the discrete Fourier transform {{< br >}}{{< br >}} P&M, sections 6.1-6.3 and 7.1 {{< br >}}{{< br >}} OS&B, sections 4.1-4.3 and 8.1-8.5 {{< br >}}{{< br >}}  |
-| 11 |  {{< br >}}{{< br >}} The discrete Fourier transform (cont.) {{< br >}}{{< br >}} The fast Fourier transform (FFT) {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Class handouts: Sampling and the discrete Fourier transform, the fast Fourier transform {{< br >}}{{< br >}} P&M, chapter 7 {{< br >}}{{< br >}} OS&B, chapters 8-9 {{< br >}}{{< br >}}  |
-| 12 |  {{< br >}}{{< br >}} The fast Fourier transform (cont.) {{< br >}}{{< br >}} Spectral leakage in the DFT and apodizing (windowing) functions {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Class handout: The fast Fourier transform {{< br >}}{{< br >}} P&M, sections 8.1-8.3 {{< br >}}{{< br >}} OS&B, sections 9.0-9.3 {{< br >}}{{< br >}}  |
-| 13 |  {{< br >}}{{< br >}} Introduction to time-domain digital signal processing {{< br >}}{{< br >}} The discrete-time convolution sum {{< br >}}{{< br >}} The z-transform {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} P&M, chapter 3 {{< br >}}{{< br >}} OS&B, chapter 3 {{< br >}}{{< br >}}  |
-| 14 |  {{< br >}}{{< br >}} The discrete-time transfer function {{< br >}}{{< br >}} The transfer function and the difference equation {{< br >}}{{< br >}} Introduction to z-plane stability criteria {{< br >}}{{< br >}} The frequency response of discrete-time systems {{< br >}}{{< br >}} The inverse z-transform {{< br >}}{{< br >}}  | &nbsp; |
-| 15 |  {{< br >}}{{< br >}} Frequency response and poles and zeros {{< br >}}{{< br >}} FIR low-pass filter design {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} P&M, chapter 7 {{< br >}}{{< br >}} OS&B, chapter 10 {{< br >}}{{< br >}} Cartinhour, chapters 6 and 9 {{< br >}}{{< br >}}  |
-| 16 |  {{< br >}}{{< br >}} FIR low-pass filter design by windowing {{< br >}}{{< br >}} Window FIR filters or other filter types {{< br >}}{{< br >}} The zeros of a linear phase FIR filter {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} P&M, section 10.2 {{< br >}}{{< br >}} OS&B, chapter 7 {{< br >}}{{< br >}} Cartinhour, chapter 9 {{< br >}}{{< br >}}  |
-| 17 |  {{< br >}}{{< br >}} Frequency-sampling filters {{< br >}}{{< br >}} FIR filter design using optimization {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Class handout: Frequency-sampling filters {{< br >}}{{< br >}} P&M, sections 10.2.3 and 10.2.4 {{< br >}}{{< br >}} OS&B, section 7.4 {{< br >}}{{< br >}} Cartinhour, chapter 9 {{< br >}}{{< br >}}  |
-| 18 |  {{< br >}}{{< br >}} FFT convolution for FIR filters {{< br >}}{{< br >}} The design of IIR filters {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} P&M, sections 7.3.1, 7.3.2, and 10.3 {{< br >}}{{< br >}} OS&B, sections 8.7.3 and 7.1 {{< br >}}{{< br >}}  |
-| 19 | The design of IIR filters (cont.) |  {{< br >}}{{< br >}} P&M, section 10.3.3 {{< br >}}{{< br >}} OS&B, section 7.1 {{< br >}}{{< br >}}  |
-| 20 |  {{< br >}}{{< br >}} Direct-form filter structures {{< br >}}{{< br >}} Transversal FIR structure {{< br >}}{{< br >}} IIR direct form structures {{< br >}}{{< br >}} Transposed direct forms {{< br >}}{{< br >}} Coefficient sensitivity in direct form filters {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Class handout: Direct-form digital filter structures {{< br >}}{{< br >}} P&M, section 9.1-9.3 {{< br >}}{{< br >}} OS&B, 6.0-6.5 {{< br >}}{{< br >}}  |
-| 21 |  {{< br >}}{{< br >}} Interpolation and decimation {{< br >}}{{< br >}} Introduction to random signals {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} Class handout: Interpolation (up-sampling) and decimation (down-sampling) {{< br >}}{{< br >}} P&M, sections 11.1-11.5 and 12.1 {{< br >}}{{< br >}} OS&B, section 4.6, appendix a {{< br >}}{{< br >}} Stearns and Hush, chapter 9 {{< br >}}{{< br >}}  |
-| 22 |  {{< br >}}{{< br >}} The correlation functions (cont.) {{< br >}}{{< br >}} Linear system input/output relationships with random inputs {{< br >}}{{< br >}} Discrete-time correlation {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} P&M, sections 12.1-12.2 {{< br >}}{{< br >}} Stearns and Hush, chapter 13 {{< br >}}{{< br >}}  |
-| 23 | Non-parametric power spectral density estimation |  {{< br >}}{{< br >}} P&M, sections 14.1-14.2 {{< br >}}{{< br >}} OS&B, sections 10.6-10.8 {{< br >}}{{< br >}} Stearns and Hush, 15.4 and 15.6 {{< br >}}{{< br >}}  |
-| 24 | Least-squares filter design |  {{< br >}}{{< br >}} Class handout: MATLAB examples of least-squares FIR filter design {{< br >}}{{< br >}} P&M, sections 12.3-12.5 {{< br >}}{{< br >}} Stearns and Hush, chapter 14 {{< br >}}{{< br >}}  |
-| 25 | Adaptive filtering |  {{< br >}}{{< br >}} Class handouts: Introduction to least-squares adaptive filters, introduction to recursive-least-squares (RLS) adaptive filters {{< br >}}{{< br >}} P&M, sections 13.1-13.3 {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction to signal processing
+
+Properties of LTI continuous filters
+
+The Dirac delta function
+
+Properties of the delta function
+
+Practical applications of the Dirac delta function
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Class handout: The Dirac delta and unit-step functions
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Continuous LTI system time-domain response
+
+Sinusoidal response of LTI continuous systems
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Class handouts: Convolution, sinusoidal frequency response
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The Fourier series and transform
+
+Periodic input functions — the Fourier series
+
+Aperiodic input functions — the Fourier transform
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Class handout: Frequency domain methods
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Review of development of Fourier transform
+
+The frequency response of a linear system defined directly from the Fourier transform
+
+Relationship between the frequency response and the impulse response
+
+The convolution property
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The one-sided Laplace transform
+
+The transfer function
+
+Poles and zeros of the transfer function
+
+Frequency response and the pole-zero plot
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Class handouts: The Laplace transform, understanding poles and zeros, sinusoidal frequency response of linear systems
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Poles and zeros of filter classes
+
+The decibel
+
+Low-pass filter design
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Class handouts: Sinusoidal frequency response of linear systems, sections 6.1 and 7, introduction to continuous time filter design
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Butterworth filter design example
+
+Chebyshev filters
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Class handout: Introduction to continuous time filter design
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Second-order filter sections
+
+Transformation of low-pass filters to other classes
+
+State-variable active filters
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Class handouts: Introduction to continuous time filter design, introduction to operational amplifiers, op-amp implementation of analog filters
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Operational-amplifier based state-variable filters
+
+Introduction to discrete-time signal processing
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+Class handout: Introduction to the operational amplifier, op-amp implementation of analog filters
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The sampling theorem
+
+The discrete Fourier transform (DFT)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Class handout: Sampling and the discrete Fourier transform
+
+P&M, sections 6.1-6.3 and 7.1
+
+OS&B, sections 4.1-4.3 and 8.1-8.5
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The discrete Fourier transform (cont.)
+
+The fast Fourier transform (FFT)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Class handouts: Sampling and the discrete Fourier transform, the fast Fourier transform
+
+P&M, chapter 7
+
+OS&B, chapters 8-9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The fast Fourier transform (cont.)
+
+Spectral leakage in the DFT and apodizing (windowing) functions
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Class handout: The fast Fourier transform
+
+P&M, sections 8.1-8.3
+
+OS&B, sections 9.0-9.3
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Introduction to time-domain digital signal processing
+
+The discrete-time convolution sum
+
+The z-transform
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+P&M, chapter 3
+
+OS&B, chapter 3
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The discrete-time transfer function
+
+The transfer function and the difference equation
+
+Introduction to z-plane stability criteria
+
+The frequency response of discrete-time systems
+
+The inverse z-transform
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Frequency response and poles and zeros
+
+FIR low-pass filter design
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+P&M, chapter 7
+
+OS&B, chapter 10
+
+Cartinhour, chapters 6 and 9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+FIR low-pass filter design by windowing
+
+Window FIR filters or other filter types
+
+The zeros of a linear phase FIR filter
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+P&M, section 10.2
+
+OS&B, chapter 7
+
+Cartinhour, chapter 9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Frequency-sampling filters
+
+FIR filter design using optimization
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Class handout: Frequency-sampling filters
+
+P&M, sections 10.2.3 and 10.2.4
+
+OS&B, section 7.4
+
+Cartinhour, chapter 9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+FFT convolution for FIR filters
+
+The design of IIR filters
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+P&M, sections 7.3.1, 7.3.2, and 10.3
+
+OS&B, sections 8.7.3 and 7.1
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+The design of IIR filters (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+P&M, section 10.3.3
+
+OS&B, section 7.1
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Direct-form filter structures
+
+Transversal FIR structure
+
+IIR direct form structures
+
+Transposed direct forms
+
+Coefficient sensitivity in direct form filters
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Class handout: Direct-form digital filter structures
+
+P&M, section 9.1-9.3
+
+OS&B, 6.0-6.5
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Interpolation and decimation
+
+Introduction to random signals
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Class handout: Interpolation (up-sampling) and decimation (down-sampling)
+
+P&M, sections 11.1-11.5 and 12.1
+
+OS&B, section 4.6, appendix a
+
+Stearns and Hush, chapter 9
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+The correlation functions (cont.)
+
+Linear system input/output relationships with random inputs
+
+Discrete-time correlation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+P&M, sections 12.1-12.2
+
+Stearns and Hush, chapter 13
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Non-parametric power spectral density estimation
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+P&M, sections 14.1-14.2
+
+OS&B, sections 10.6-10.8
+
+Stearns and Hush, 15.4 and 15.6
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Least-squares filter design
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Class handout: MATLAB examples of least-squares FIR filter design
+
+P&M, sections 12.3-12.5
+
+Stearns and Hush, chapter 14
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Adaptive filtering
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Class handouts: Introduction to least-squares adaptive filters, introduction to recursive-least-squares (RLS) adaptive filters
+
+P&M, sections 13.1-13.3
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
