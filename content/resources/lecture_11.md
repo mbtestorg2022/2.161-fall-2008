@@ -4,6 +4,7 @@ description: Lecture notes on the discrete Fourier transform and the fast Fourie
   transform.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/2-161-signal-processing-continuous-and-discrete-fall-2008/19d7d8714e21683929fd97ead7e45e94_lecture_11.pdf
 file_type: application/pdf
+parent_uid: 4fa53234-4cad-e0ba-c94f-bc7ab3a7c7d0
 resourcetype: Document
 title: Lecture 11
 uid: 19d7d871-4e21-6839-29fd-97ead7e45e94

@@ -5,6 +5,7 @@ description: Lecture notes on the one-sided Laplace transform, the transfer func
   plot.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/2-161-signal-processing-continuous-and-discrete-fall-2008/aa46a1127460310c7506654176a72ec0_lecture_05.pdf
 file_type: application/pdf
+parent_uid: 4fa53234-4cad-e0ba-c94f-bc7ab3a7c7d0
 resourcetype: Document
 title: Lecture 5
 uid: aa46a112-7460-310c-7506-654176a72ec0
